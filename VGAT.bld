@@ -5,7 +5,8 @@ Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
 ise -dd _ngo -nt timestamp -uc VGA_pinout.ucf -p xc3s100e-cp132-4 VGAT.ngc
 VGAT.ngd
 
-Reading NGO file "/home/ned/Descargas/cuadro_vga/VGAT.ngc" ...
+Reading NGO file
+"/home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/VGAT.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -27,10 +28,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 394824 kilobytes
+Total memory usage is 396104 kilobytes
 
 Writing NGD file "VGAT.ngd" ...
-Total REAL time to NGDBUILD completion:  7 sec
-Total CPU time to NGDBUILD completion:   7 sec
+Total REAL time to NGDBUILD completion:  8 sec
+Total CPU time to NGDBUILD completion:   5 sec
 
 Writing NGDBUILD log file "VGAT.bld"...

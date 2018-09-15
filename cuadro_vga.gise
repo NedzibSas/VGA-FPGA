@@ -22,13 +22,11 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="cuadro_vga.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="VGAT.bgn" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="VGAT.bit" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="VGAT.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="VGAT.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="VGAT.drc" xil_pn:subbranch="FPGAConfiguration"/>
-    <file xil_pn:fileType="FILE_JHD" xil_pn:name="VGAT.jhd"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="VGAT.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="VGAT.ncd" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="VGAT.ngc"/>
@@ -48,7 +46,6 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="VGAT.vhf"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="VGAT.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="VGAT.xst"/>
-    <file xil_pn:fileType="FILE_HTML" xil_pn:name="VGAT_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="VGAT_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="VGAT_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="VGAT_map.mrp" xil_pn:subbranch="Map"/>
@@ -62,7 +59,6 @@
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="VGAT_summary.html"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="VGAT_summary.xml"/>
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="VGAT_usage.xml"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="VGAT_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="VGAT_xst.xrpt"/>
     <file xil_pn:fileType="FILE_CMD" xil_pn:name="_impact.cmd"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="_impact.log"/>
@@ -73,91 +69,12 @@
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="cuadro01.bld"/>
-    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="cuadro01.cmd_log"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="cuadro01.lso"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="cuadro01.ncd" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="cuadro01.ngc"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="cuadro01.ngd"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="cuadro01.ngr"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="cuadro01.par" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="cuadro01.pcf" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cuadro01.prj"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="cuadro01.stx"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="cuadro01.syr"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="cuadro01.twr" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="cuadro01.twx" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="cuadro01.unroutes" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="cuadro01.xst"/>
-    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cuadro01_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="cuadro01_guide.ncd" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="cuadro01_map.map" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="cuadro01_map.mrp" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="cuadro01_map.ncd" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="cuadro01_map.ngm" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="cuadro01_pad.csv" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="cuadro01_pad.txt" xil_pn:subbranch="Par"/>
-    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cuadro01_summary.html"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cuadro01_vhdl.prj"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cuadro01_xst.xrpt"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="pintar.bld"/>
-    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="pintar.cmd_log"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="pintar.lso"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="pintar.ncd" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="pintar.ngc"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="pintar.ngd"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="pintar.ngr"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="pintar.par" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="pintar.pcf" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="pintar.prj"/>
-    <file xil_pn:fileType="FILE_SPL" xil_pn:name="pintar.spl"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="pintar.stx"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="pintar.sym" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="pintar.syr"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="pintar.twr" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="pintar.twx" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="pintar.unroutes" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="pintar.xst"/>
-    <file xil_pn:fileType="FILE_HTML" xil_pn:name="pintar_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="pintar_guide.ncd" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="pintar_map.map" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="pintar_map.mrp" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="pintar_map.ncd" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="pintar_map.ngm" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="pintar_pad.csv" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="pintar_pad.txt" xil_pn:subbranch="Par"/>
-    <file xil_pn:fileType="FILE_HTML" xil_pn:name="pintar_summary.html"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="pintar_vhdl.prj"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="pintar_xst.xrpt"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="vga_controller_640_60.bld"/>
-    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="vga_controller_640_60.cmd_log"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="vga_controller_640_60.lso"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="vga_controller_640_60.ncd" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="vga_controller_640_60.ngc"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="vga_controller_640_60.ngd"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="vga_controller_640_60.ngr"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="vga_controller_640_60.par" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="vga_controller_640_60.pcf" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="vga_controller_640_60.prj"/>
-    <file xil_pn:fileType="FILE_SPL" xil_pn:name="vga_controller_640_60.spl"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="vga_controller_640_60.stx"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="vga_controller_640_60.sym" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="vga_controller_640_60.syr"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="vga_controller_640_60.twr" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="vga_controller_640_60.twx" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="vga_controller_640_60.unroutes" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="vga_controller_640_60.xst"/>
-    <file xil_pn:fileType="FILE_HTML" xil_pn:name="vga_controller_640_60_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="vga_controller_640_60_guide.ncd" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="vga_controller_640_60_map.map" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="vga_controller_640_60_map.mrp" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="vga_controller_640_60_map.ncd" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="vga_controller_640_60_map.ngm" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="vga_controller_640_60_pad.csv" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="vga_controller_640_60_pad.txt" xil_pn:subbranch="Par"/>
-    <file xil_pn:fileType="FILE_HTML" xil_pn:name="vga_controller_640_60_summary.html"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="vga_controller_640_60_xst.xrpt"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
@@ -165,71 +82,66 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1458061598" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1458061598">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1475432384" xil_pn:in_ck="3759525521438" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-7229405853790628351" xil_pn:start_ts="1475432381">
+    <transform xil_pn:end_ts="1536985113" xil_pn:in_ck="3759525521438" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-7229405853790628351" xil_pn:start_ts="1536985110">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="VGAT.vhf"/>
     </transform>
-    <transform xil_pn:end_ts="1458061599" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-5533924932589908950" xil_pn:start_ts="1458061599">
+    <transform xil_pn:end_ts="1536985113" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-5533924932589908950" xil_pn:start_ts="1536985113">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1458061599" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1458061599">
+    <transform xil_pn:end_ts="1536985114" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1536985113">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1458061599" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="3083005482629642367" xil_pn:start_ts="1458061599">
+    <transform xil_pn:end_ts="1536985114" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="3083005482629642367" xil_pn:start_ts="1536985114">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1458061599" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1458061599">
+    <transform xil_pn:end_ts="1536985114" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1536985114">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1458061599" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="2241889181951729780" xil_pn:start_ts="1458061599">
+    <transform xil_pn:end_ts="1536985114" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="2241889181951729780" xil_pn:start_ts="1536985114">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1536984088" xil_pn:in_ck="6539116954655727776" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-4612572987059271193" xil_pn:start_ts="1536984082">
-      <status xil_pn:value="FailedRun"/>
+    <transform xil_pn:end_ts="1536985150" xil_pn:in_ck="6539116954655727776" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-4612572987059271193" xil_pn:start_ts="1536985114">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="VGAT.jhd"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="VGAT.lso"/>
       <outfile xil_pn:name="VGAT.ngc"/>
       <outfile xil_pn:name="VGAT.ngr"/>
       <outfile xil_pn:name="VGAT.prj"/>
+      <outfile xil_pn:name="VGAT.stx"/>
       <outfile xil_pn:name="VGAT.syr"/>
       <outfile xil_pn:name="VGAT.xst"/>
       <outfile xil_pn:name="VGAT_xst.xrpt"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="pintar.ngr"/>
-      <outfile xil_pn:name="vga_controller_640_60.ngr"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1475434740" xil_pn:in_ck="3832995134871340072" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="123229027435071444" xil_pn:start_ts="1475434740">
+    <transform xil_pn:end_ts="1536985176" xil_pn:in_ck="3832995134871340072" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="123229027435071444" xil_pn:start_ts="1536985176">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1475550990" xil_pn:in_ck="433866386082913182" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3712495678103441975" xil_pn:start_ts="1475550978">
+    <transform xil_pn:end_ts="1536985189" xil_pn:in_ck="4548784960420467072" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3712495678103441975" xil_pn:start_ts="1536985176">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="VGAT.bld"/>
       <outfile xil_pn:name="VGAT.ngd"/>
       <outfile xil_pn:name="VGAT_ngdbuild.xrpt"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1475551001" xil_pn:in_ck="2486479448937889474" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1303429204059397298" xil_pn:start_ts="1475550990">
+    <transform xil_pn:end_ts="1536985203" xil_pn:in_ck="-5347196553024520383" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1303429204059397298" xil_pn:start_ts="1536985189">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="VGAT.pcf"/>
@@ -242,11 +154,10 @@
       <outfile xil_pn:name="VGAT_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1475551034" xil_pn:in_ck="2289708296969061190" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1475551001">
+    <transform xil_pn:end_ts="1536985239" xil_pn:in_ck="-7240269047928034662" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1536985203">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="VGAT.ncd"/>
       <outfile xil_pn:name="VGAT.pad"/>
       <outfile xil_pn:name="VGAT.par"/>
@@ -258,11 +169,10 @@
       <outfile xil_pn:name="VGAT_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1475551044" xil_pn:in_ck="-3599360651954448310" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1475551034">
-      <status xil_pn:value="AbortedRun"/>
+    <transform xil_pn:end_ts="1536985257" xil_pn:in_ck="3759525515989" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1536985246">
+      <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="VGAT.bgn"/>
@@ -274,19 +184,17 @@
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1475598406" xil_pn:in_ck="3759525503135" xil_pn:name="TRAN_impactProgrammingTool" xil_pn:prop_ck="1890673188639090495" xil_pn:start_ts="1475598406">
+    <transform xil_pn:end_ts="1536985496" xil_pn:in_ck="3759525503135" xil_pn:name="TRAN_impactProgrammingTool" xil_pn:prop_ck="1890673188639090495" xil_pn:start_ts="1536985496">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_impact.cmd"/>
       <outfile xil_pn:name="_impact.log"/>
     </transform>
-    <transform xil_pn:end_ts="1475551034" xil_pn:in_ck="8242716257724293170" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1475551030">
+    <transform xil_pn:end_ts="1536985239" xil_pn:in_ck="-8796466011664341059" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1536985233">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="VGAT.twr"/>
       <outfile xil_pn:name="VGAT.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
