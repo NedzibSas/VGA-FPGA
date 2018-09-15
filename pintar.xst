@@ -1,0 +1,5 @@
+set -tmpdir "/home/ned/Descargas/cuadro_vga/xst/projnav.tmp"
+set -xsthdpdir "/home/ned/Descargas/cuadro_vga/xst"
+elaborate
+-ifn pintar.prj
+-ifmt mixed

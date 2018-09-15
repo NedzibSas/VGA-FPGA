@@ -1,0 +1,10 @@
+[Inputs]
+rst
+pixel_clk
+[Outputs]
+HS
+VS
+blank
+=hcount[10:0]=
+=vcount[10:0]=
+[BiDir]

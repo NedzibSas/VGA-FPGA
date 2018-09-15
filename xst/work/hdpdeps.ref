@@ -1,0 +1,38 @@
+V3 25
+FL /home/edwar/VHDL_2015/cuadro_vga/cuadro01.vhd 2015/05/16.09:53:40 P.20131013
+EN work/cuadro01 1431788025 FL /home/edwar/VHDL_2015/cuadro_vga/cuadro01.vhd \
+      PB ieee/std_logic_1164 1341906176 PB ieee/std_logic_arith 1341906177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1341906179
+AR work/cuadro01/Behavioral 1431788026 \
+      FL /home/edwar/VHDL_2015/cuadro_vga/cuadro01.vhd EN work/cuadro01 1431788025
+FL /home/edwar/VHDL_2015/cuadro_vga/pintar.vhd 2016/03/15.12:05:46 P.20131013
+FL /home/edwar/VHDL_2015/cuadro_vga/VGAT.vhf 2016/03/15.12:06:39 P.20131013
+FL /home/edwar/VHDL_2015/cuadro_vga/vga_controller_640_60.vhd 2015/05/16.09:52:51 P.20131013
+FL /home/edwar/VHDL_2015/letras_ROM_VGA/vga_controller_640_60.vhd 2006/10/01.14:05:10 P.20131013
+FL /home/ned/Descargas/cuadro_vga/pintar.vhd 2016/10/03.22:15:47 P.20131013
+EN work/pintar 1475550959 FL /home/ned/Descargas/cuadro_vga/pintar.vhd \
+      PB ieee/std_logic_1164 1341906176 PB ieee/std_logic_arith 1341906177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1341906179
+AR work/pintar/Behavioral 1475550960 \
+      FL /home/ned/Descargas/cuadro_vga/pintar.vhd EN work/pintar 1475550959
+FL /home/ned/Descargas/cuadro_vga/VGAT.vhf 2016/10/02.13:19:44 P.20131013
+EN work/FTC_MXILINX_VGAT 1475550961 FL /home/ned/Descargas/cuadro_vga/VGAT.vhf \
+      PB ieee/std_logic_1164 1341906176 PB ieee/NUMERIC_STD 1341906182 LB UNISIM \
+      PH unisim/VCOMPONENTS 1341906184
+AR work/FTC_MXILINX_VGAT/BEHAVIORAL 1475550962 \
+      FL /home/ned/Descargas/cuadro_vga/VGAT.vhf EN work/FTC_MXILINX_VGAT 1475550961 \
+      CP XOR2 CP FDC
+EN work/VGAT 1475550963 \
+      FL /home/ned/Descargas/cuadro_vga/VGAT.vhf PB ieee/std_logic_1164 1341906176 \
+      PB ieee/NUMERIC_STD 1341906182 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/VGAT/BEHAVIORAL 1475550964 \
+      FL /home/ned/Descargas/cuadro_vga/VGAT.vhf EN work/VGAT 1475550963 \
+      CP vga_controller_640_60 CP FTC_MXILINX_VGAT CP VCC CP pintar
+FL /home/ned/Descargas/cuadro_vga/vga_controller_640_60.vhd 2006/10/01.14:05:10 P.20131013
+EN work/vga_controller_640_60 1475550957 \
+      FL /home/ned/Descargas/cuadro_vga/vga_controller_640_60.vhd \
+      PB ieee/std_logic_1164 1341906176 PB ieee/std_logic_arith 1341906177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1341906179 LB UNISIM PH unisim/VCOMPONENTS 1341906184
+AR work/vga_controller_640_60/Behavioral 1475550958 \
+      FL /home/ned/Descargas/cuadro_vga/vga_controller_640_60.vhd \
+      EN work/vga_controller_640_60 1475550957

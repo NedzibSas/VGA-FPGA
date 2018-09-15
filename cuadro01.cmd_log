@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/edwar/VHDL_2015/cuadro_vga/cuadro01.xst" -ofn "/home/edwar/VHDL_2015/cuadro_vga/cuadro01.syr" 
+xst -intstyle ise -ifn "/home/edwar/VHDL_2015/cuadro_vga/cuadro01.xst" -ofn "/home/edwar/VHDL_2015/cuadro_vga/cuadro01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 cuadro01.ngc cuadro01.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o cuadro01_map.ncd cuadro01.ngd cuadro01.pcf 
+par -w -intstyle ise -ol high -t 1 cuadro01_map.ncd cuadro01.ncd cuadro01.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cuadro01.twx cuadro01.ncd -o cuadro01.twr cuadro01.pcf 

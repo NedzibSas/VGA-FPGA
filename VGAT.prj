@@ -1,0 +1,3 @@
+vhdl work "vga_controller_640_60.vhd"
+vhdl work "pintar.vhd"
+vhdl work "VGAT.vhf"
