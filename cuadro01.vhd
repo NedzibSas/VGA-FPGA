@@ -38,6 +38,7 @@ entity cuadro01 is
            OutBlue : out  STD_LOGIC_VECTOR (1 downto 0));
 end cuadro01;
 
+
 architecture Behavioral of cuadro01 is
 begin
 process(clk,reset)
