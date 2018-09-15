@@ -194,19 +194,14 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1475550978" xil_pn:in_ck="6539116954655727776" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-4612572987059271193" xil_pn:start_ts="1475550949">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="WarningsGenerated"/>
+    <transform xil_pn:end_ts="1536984088" xil_pn:in_ck="6539116954655727776" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-4612572987059271193" xil_pn:start_ts="1536984082">
+      <status xil_pn:value="FailedRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="VGAT.jhd"/>
       <outfile xil_pn:name="VGAT.lso"/>
       <outfile xil_pn:name="VGAT.ngc"/>
       <outfile xil_pn:name="VGAT.ngr"/>
       <outfile xil_pn:name="VGAT.prj"/>
-      <outfile xil_pn:name="VGAT.stx"/>
       <outfile xil_pn:name="VGAT.syr"/>
       <outfile xil_pn:name="VGAT.xst"/>
       <outfile xil_pn:name="VGAT_xst.xrpt"/>
@@ -223,6 +218,7 @@
     <transform xil_pn:end_ts="1475550990" xil_pn:in_ck="433866386082913182" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3712495678103441975" xil_pn:start_ts="1475550978">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="VGAT.bld"/>
       <outfile xil_pn:name="VGAT.ngd"/>
       <outfile xil_pn:name="VGAT_ngdbuild.xrpt"/>
@@ -233,6 +229,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="VGAT.pcf"/>
@@ -249,6 +246,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="VGAT.ncd"/>
       <outfile xil_pn:name="VGAT.pad"/>
       <outfile xil_pn:name="VGAT.par"/>
@@ -261,9 +259,12 @@
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
     <transform xil_pn:end_ts="1475551044" xil_pn:in_ck="-3599360651954448310" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1475551034">
-      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="AbortedRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="VGAT.bgn"/>
       <outfile xil_pn:name="VGAT.bit"/>
       <outfile xil_pn:name="VGAT.drc"/>
@@ -276,6 +277,7 @@
     <transform xil_pn:end_ts="1475598406" xil_pn:in_ck="3759525503135" xil_pn:name="TRAN_impactProgrammingTool" xil_pn:prop_ck="1890673188639090495" xil_pn:start_ts="1475598406">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_impact.cmd"/>
@@ -284,6 +286,7 @@
     <transform xil_pn:end_ts="1475551034" xil_pn:in_ck="8242716257724293170" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1475551030">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="VGAT.twr"/>
       <outfile xil_pn:name="VGAT.twx"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
