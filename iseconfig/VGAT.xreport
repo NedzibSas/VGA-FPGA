@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-09-14T23:18:26</DateModified>
+  <DateModified>2018-09-15T08:46:42</DateModified>
   <ModuleName>VGAT</ModuleName>
   <SummaryTimeStamp>2018-09-14T23:05:25</SummaryTimeStamp>
   <SavedFilePath>/home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/iseconfig/VGAT.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>/home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/</ImplementationReportsDirectory>
   <DateInitialized>2018-09-14T22:29:56</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

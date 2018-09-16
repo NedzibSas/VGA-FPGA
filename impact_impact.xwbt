@@ -1,8 +1,8 @@
 INTSTYLE=impact
 INFILE=/home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/impact.xsl
 OUTFILE=/home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/impact.xsl
-FAMILY=None
-PART=None
+FAMILY=Multiple
+PART=Multiple
 WORKINGDIR=/home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA
 LICENSE=iMPACT
 USER_INFO=iMPACT
