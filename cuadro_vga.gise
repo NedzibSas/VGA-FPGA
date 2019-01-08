@@ -27,6 +27,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="VGAT.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="VGAT.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="VGAT.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="VGAT.jhd"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="VGAT.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="VGAT.ncd" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="VGAT.ngc"/>
@@ -46,6 +47,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="VGAT.vhf"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="VGAT.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="VGAT.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="VGAT_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="VGAT_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="VGAT_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="VGAT_map.mrp" xil_pn:subbranch="Map"/>
@@ -107,12 +109,13 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1536985150" xil_pn:in_ck="6539116954655727776" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-4612572987059271193" xil_pn:start_ts="1536985114">
+    <transform xil_pn:end_ts="1537110145" xil_pn:in_ck="6539116954655727776" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-4612572987059271193" xil_pn:start_ts="1537110120">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="VGAT.jhd"/>
       <outfile xil_pn:name="VGAT.lso"/>
       <outfile xil_pn:name="VGAT.ngc"/>
       <outfile xil_pn:name="VGAT.ngr"/>
@@ -129,7 +132,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1536985189" xil_pn:in_ck="4548784960420467072" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3712495678103441975" xil_pn:start_ts="1536985176">
+    <transform xil_pn:end_ts="1537110160" xil_pn:in_ck="4548784960420467072" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3712495678103441975" xil_pn:start_ts="1537110150">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="VGAT.bld"/>
@@ -138,7 +141,7 @@
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1536985203" xil_pn:in_ck="-5347196553024520383" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1303429204059397298" xil_pn:start_ts="1536985189">
+    <transform xil_pn:end_ts="1537110172" xil_pn:in_ck="-5347196553024520383" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1303429204059397298" xil_pn:start_ts="1537110160">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -154,7 +157,7 @@
       <outfile xil_pn:name="VGAT_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1536985239" xil_pn:in_ck="-7240269047928034662" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1536985203">
+    <transform xil_pn:end_ts="1537110203" xil_pn:in_ck="-7240269047928034662" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1537110172">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -169,12 +172,10 @@
       <outfile xil_pn:name="VGAT_par.xrpt"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1536985257" xil_pn:in_ck="3759525515989" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1536985246">
+    <transform xil_pn:end_ts="1537110218" xil_pn:in_ck="3759525515989" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1537110209">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="VGAT.bgn"/>
       <outfile xil_pn:name="VGAT.bit"/>
       <outfile xil_pn:name="VGAT.drc"/>
@@ -184,13 +185,17 @@
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1537037937" xil_pn:in_ck="3759525503135" xil_pn:name="TRAN_impactProgrammingTool" xil_pn:prop_ck="1890673188639090495" xil_pn:start_ts="1537037934">
+    <transform xil_pn:end_ts="1537108889" xil_pn:in_ck="3759525503135" xil_pn:name="TRAN_impactProgrammingTool" xil_pn:prop_ck="1890673188639090495" xil_pn:start_ts="1537108889">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_impact.cmd"/>
       <outfile xil_pn:name="_impact.log"/>
     </transform>
-    <transform xil_pn:end_ts="1536985239" xil_pn:in_ck="-8796466011664341059" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1536985233">
+    <transform xil_pn:end_ts="1537110203" xil_pn:in_ck="-8796466011664341059" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1537110198">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="VGAT.twr"/>

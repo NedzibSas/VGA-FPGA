@@ -1,33 +1,33 @@
 V3 18
 FL /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/pintar.vhd 2018/09/14.22:29:26 P.20131013
-EN work/pintar 1536985133 \
+EN work/pintar 1537110133 \
       FL /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/pintar.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/pintar/Behavioral 1536985134 \
+AR work/pintar/Behavioral 1537110134 \
       FL /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/pintar.vhd \
-      EN work/pintar 1536985133
+      EN work/pintar 1537110133
 FL /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/VGAT.vhf 2018/09/14.23:18:33 P.20131013
-EN work/FTC_MXILINX_VGAT 1536985135 \
+EN work/FTC_MXILINX_VGAT 1537110135 \
       FL /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/VGAT.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/FTC_MXILINX_VGAT/BEHAVIORAL 1536985136 \
+AR work/FTC_MXILINX_VGAT/BEHAVIORAL 1537110136 \
       FL /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/VGAT.vhf \
-      EN work/FTC_MXILINX_VGAT 1536985135 CP XOR2 CP FDC
-EN work/VGAT 1536985137 \
+      EN work/FTC_MXILINX_VGAT 1537110135 CP XOR2 CP FDC
+EN work/VGAT 1537110137 \
       FL /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/VGAT.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/VGAT/BEHAVIORAL 1536985138 \
+AR work/VGAT/BEHAVIORAL 1537110138 \
       FL /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/VGAT.vhf \
-      EN work/VGAT 1536985137 CP vga_controller_640_60 CP FTC_MXILINX_VGAT CP VCC \
+      EN work/VGAT 1537110137 CP vga_controller_640_60 CP FTC_MXILINX_VGAT CP VCC \
       CP pintar
 FL /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/vga_controller_640_60.vhd 2018/09/14.22:29:26 P.20131013
-EN work/vga_controller_640_60 1536985131 \
+EN work/vga_controller_640_60 1537110131 \
       FL /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/vga_controller_640_60.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB UNISIM PH unisim/VCOMPONENTS 1381692182
-AR work/vga_controller_640_60/Behavioral 1536985132 \
+AR work/vga_controller_640_60/Behavioral 1537110132 \
       FL /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/vga_controller_640_60.vhd \
-      EN work/vga_controller_640_60 1536985131
+      EN work/vga_controller_640_60 1537110131

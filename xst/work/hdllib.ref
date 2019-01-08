@@ -1,8 +1,8 @@
-AR ftc_mxilinx_vgat behavioral /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/VGAT.vhf sub00/vhpl05 1536985136
-EN vga_controller_640_60 NULL /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/vga_controller_640_60.vhd sub00/vhpl00 1536985131
-EN ftc_mxilinx_vgat NULL /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/VGAT.vhf sub00/vhpl04 1536985135
-AR vga_controller_640_60 behavioral /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/vga_controller_640_60.vhd sub00/vhpl01 1536985132
-AR vgat behavioral /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/VGAT.vhf sub00/vhpl07 1536985138
-EN pintar NULL /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/pintar.vhd sub00/vhpl02 1536985133
-EN vgat NULL /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/VGAT.vhf sub00/vhpl06 1536985137
-AR pintar behavioral /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/pintar.vhd sub00/vhpl03 1536985134
+AR ftc_mxilinx_vgat behavioral /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/VGAT.vhf sub00/vhpl05 1537110136
+EN vga_controller_640_60 NULL /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/vga_controller_640_60.vhd sub00/vhpl00 1537110131
+EN ftc_mxilinx_vgat NULL /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/VGAT.vhf sub00/vhpl04 1537110135
+AR vga_controller_640_60 behavioral /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/vga_controller_640_60.vhd sub00/vhpl01 1537110132
+AR vgat behavioral /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/VGAT.vhf sub00/vhpl07 1537110138
+EN pintar NULL /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/pintar.vhd sub00/vhpl02 1537110133
+EN vgat NULL /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/VGAT.vhf sub00/vhpl06 1537110137
+AR pintar behavioral /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/pintar.vhd sub00/vhpl03 1537110134
