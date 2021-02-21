@@ -7,11 +7,11 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : VGAT.vhf
--- /___/   /\     Timestamp : 10/02/2016 13:19:43
+-- /___/   /\     Timestamp : 09/14/2018 23:18:33
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl /home/ned/Descargas/cuadro_vga/VGAT.vhf -w /home/ned/Descargas/cuadro_vga/VGAT.sch
+--Command: sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/VGAT.vhf -w /home/alex-pc/Documentos/ProyectosAlex/ElJuegoVida/VGA-FPGA/VGAT.sch
 --Design Name: VGAT
 --Device: spartan3e
 --Purpose:
